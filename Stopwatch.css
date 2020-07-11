@@ -1,0 +1,115 @@
+body {
+  background-image: url('Bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.stopwatch {
+  height: 150px;
+  width: 150px;
+  border: 5px solid white;
+  box-shadow: 15px 10px 30px white inset ;
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  bottom: 0%;
+  left: 0px;
+  right: 400px;
+ border-radius: 50%;
+}
+
+.stopwatch1 {
+  height: 150px;
+  width: 150px;
+  border: 5px solid white;
+  box-shadow: 15px 10px 30px white inset ;
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  bottom: 0%;
+  left: -30px;
+  right: -400px;
+ border-radius: 50%;
+}
+
+.stopwatch2 {
+  height: 150px;
+  width: 150px;
+  border: 5px solid white;
+  box-shadow: 15px 10px 30px white inset ;
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  bottom: 0%;
+  left: 0px;
+  right: 10px;
+ border-radius: 50%;
+}
+
+#min {
+  border-radius: 50%;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 37px;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+#sec {
+  border-radius: 50%;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 37px;
+  text-align: center;
+  font-size: 60px;
+}
+
+#msec {
+  border-radius: 50%;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 37px;
+  text-align: center;
+  font-size: 60px;
+}
+
+#button {
+  margin-top: 150px;
+  border-radius: 50%;
+  height: 60px;
+  border: aquamarine;
+  box-shadow: 1px 1px 10px white inset;
+  outline: none;
+}
+
+.button {
+  margin-left: 596px;
+  width: 50px;
+}
+
+.button1 {
+  margin-left: 2px;
+  width: 50px;
+}
+
+.button2 {
+  width: 50px;
+}
+
+
+h2 {
+  margin-top: 100px;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  font-weight: bolder;
+  background: linear-gradient(brown, grey, white);
+  -webkit-text-fill-color: transparent;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+}

@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="icon" href="Stopwatch.ico">
+    <title>Stop Watch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="Stopwatch.css">
+</head>
+<body>
+    <h2><i><u>Stop Watch</u>..<span><i class='fas fa-stopwatch' style='font-size:36px'></i></span><span><i class='fas fa-stopwatch' style='font-size:36px'></i></span></i></h2>
+        <div class="stopwatch">
+            <div>
+                <h1 id="min" style="color: white;">0</h1>
+            </div>
+        </div>
+        <div class="stopwatch1">
+            <div>
+                <h1 id="msec" style="color: white;">0</h1>
+            </div>
+        </div>
+        <div class="stopwatch2">
+            <div>
+                <h1 id="sec" style="color: white;">0</h1>
+            </div>
+        </div>
+        <div>
+            <button class="button" id="button" onclick="start()"><i class="fa fa-arrow-right" aria-hidden="true" style="color: black;"></i></button>
+            <button class="button1" id="button" onclick="stop()"><i class="fa fa-stop" aria-hidden="true" style="color: black;"></i></button>
+            <button class="button2" id="button" onclick="reset()"><i class="fa fa-refresh" aria-hidden="true" style="color: black;"></i></button>
+        </div>
+    </div>
+    <script src="app1.js"></script>
+</body>
+</html>
